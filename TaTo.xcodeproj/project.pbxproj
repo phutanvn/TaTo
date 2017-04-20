@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B0F47D21EA89F0C00205E11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F47D11EA89F0C00205E11 /* AppDelegate.swift */; };
-		8B0F47D41EA89F0C00205E11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F47D31EA89F0C00205E11 /* ViewController.swift */; };
+		8B0F47D41EA89F0C00205E11 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F47D31EA89F0C00205E11 /* LoginViewController.swift */; };
 		8B0F47D71EA89F0C00205E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F47D51EA89F0C00205E11 /* Main.storyboard */; };
 		8B0F47DA1EA89F0C00205E11 /* TaTo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F47D81EA89F0C00205E11 /* TaTo.xcdatamodeld */; };
 		8B0F47DC1EA89F0C00205E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F47DB1EA89F0C00205E11 /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		8B0F47CE1EA89F0C00205E11 /* TaTo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaTo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0F47D11EA89F0C00205E11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B0F47D31EA89F0C00205E11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B0F47D31EA89F0C00205E11 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8B0F47D61EA89F0C00205E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B0F47D91EA89F0C00205E11 /* TaTo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaTo.xcdatamodel; sourceTree = "<group>"; };
 		8B0F47DB1EA89F0C00205E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				8B0F47D11EA89F0C00205E11 /* AppDelegate.swift */,
-				8B0F47D31EA89F0C00205E11 /* ViewController.swift */,
+				8B0F47D31EA89F0C00205E11 /* LoginViewController.swift */,
 				8B0F47D51EA89F0C00205E11 /* Main.storyboard */,
 				8B0F47DB1EA89F0C00205E11 /* Assets.xcassets */,
 				8B0F47DD1EA89F0C00205E11 /* LaunchScreen.storyboard */,
@@ -99,7 +99,7 @@
 				TargetAttributes = {
 					8B0F47CD1EA89F0C00205E11 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B0F47D41EA89F0C00205E11 /* ViewController.swift in Sources */,
+				8B0F47D41EA89F0C00205E11 /* LoginViewController.swift in Sources */,
 				8B0F47DA1EA89F0C00205E11 /* TaTo.xcdatamodeld in Sources */,
 				8B0F47D21EA89F0C00205E11 /* AppDelegate.swift in Sources */,
 			);
@@ -207,7 +207,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -251,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -264,6 +264,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TaTo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PTG.TaTo;
@@ -276,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TaTo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PTG.TaTo;
