@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		8B0F47D21EA89F0C00205E11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F47D11EA89F0C00205E11 /* AppDelegate.swift */; };
-		8B0F47D41EA89F0C00205E11 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F47D31EA89F0C00205E11 /* LoginViewController.swift */; };
-		8B0F47D71EA89F0C00205E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F47D51EA89F0C00205E11 /* Main.storyboard */; };
 		8B0F47DA1EA89F0C00205E11 /* TaTo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F47D81EA89F0C00205E11 /* TaTo.xcdatamodeld */; };
 		8B0F47DC1EA89F0C00205E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F47DB1EA89F0C00205E11 /* Assets.xcassets */; };
 		8B0F47DF1EA89F0C00205E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F47DD1EA89F0C00205E11 /* LaunchScreen.storyboard */; };
+		8B0F47E91EA8A1F000205E11 /* imgBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F47E81EA8A1F000205E11 /* imgBackground.jpg */; };
+		8B0F47EE1EA8A72E00205E11 /* icon-ButtonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F47EC1EA8A72E00205E11 /* icon-ButtonBlue.png */; };
+		8B0F47EF1EA8A72E00205E11 /* icon-ButtonRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F47ED1EA8A72E00205E11 /* icon-ButtonRed.png */; };
+		8B0F47F41EA8B09B00205E11 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F47F21EA8B09B00205E11 /* LoginViewController.swift */; };
+		8B0F47F51EA8B09B00205E11 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F47F31EA8B09B00205E11 /* LoginViewController.xib */; };
+		8B0F47F71EA8B20300205E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F47F61EA8B20300205E11 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B0F47CE1EA89F0C00205E11 /* TaTo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaTo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0F47D11EA89F0C00205E11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B0F47D31EA89F0C00205E11 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		8B0F47D61EA89F0C00205E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B0F47D91EA89F0C00205E11 /* TaTo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaTo.xcdatamodel; sourceTree = "<group>"; };
 		8B0F47DB1EA89F0C00205E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B0F47DE1EA89F0C00205E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B0F47E01EA89F0C00205E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0F47E81EA8A1F000205E11 /* imgBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgBackground.jpg; sourceTree = "<group>"; };
+		8B0F47EC1EA8A72E00205E11 /* icon-ButtonBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ButtonBlue.png"; sourceTree = "<group>"; };
+		8B0F47ED1EA8A72E00205E11 /* icon-ButtonRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ButtonRed.png"; sourceTree = "<group>"; };
+		8B0F47F21EA8B09B00205E11 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8B0F47F31EA8B09B00205E11 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		8B0F47F61EA8B20300205E11 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,35 @@
 		8B0F47D01EA89F0C00205E11 /* TaTo */ = {
 			isa = PBXGroup;
 			children = (
+				8B0F47E61EA8A1F000205E11 /* Resources */,
 				8B0F47D11EA89F0C00205E11 /* AppDelegate.swift */,
-				8B0F47D31EA89F0C00205E11 /* LoginViewController.swift */,
-				8B0F47D51EA89F0C00205E11 /* Main.storyboard */,
 				8B0F47DB1EA89F0C00205E11 /* Assets.xcassets */,
 				8B0F47DD1EA89F0C00205E11 /* LaunchScreen.storyboard */,
 				8B0F47E01EA89F0C00205E11 /* Info.plist */,
 				8B0F47D81EA89F0C00205E11 /* TaTo.xcdatamodeld */,
+				8B0F47F21EA8B09B00205E11 /* LoginViewController.swift */,
+				8B0F47F31EA8B09B00205E11 /* LoginViewController.xib */,
+				8B0F47F61EA8B20300205E11 /* Main.storyboard */,
 			);
 			path = TaTo;
+			sourceTree = "<group>";
+		};
+		8B0F47E61EA8A1F000205E11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B0F47E71EA8A1F000205E11 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B0F47E71EA8A1F000205E11 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8B0F47EC1EA8A72E00205E11 /* icon-ButtonBlue.png */,
+				8B0F47ED1EA8A72E00205E11 /* icon-ButtonRed.png */,
+				8B0F47E81EA8A1F000205E11 /* imgBackground.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +154,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B0F47F71EA8B20300205E11 /* Main.storyboard in Resources */,
 				8B0F47DF1EA89F0C00205E11 /* LaunchScreen.storyboard in Resources */,
+				8B0F47E91EA8A1F000205E11 /* imgBackground.jpg in Resources */,
+				8B0F47F51EA8B09B00205E11 /* LoginViewController.xib in Resources */,
+				8B0F47EE1EA8A72E00205E11 /* icon-ButtonBlue.png in Resources */,
 				8B0F47DC1EA89F0C00205E11 /* Assets.xcassets in Resources */,
-				8B0F47D71EA89F0C00205E11 /* Main.storyboard in Resources */,
+				8B0F47EF1EA8A72E00205E11 /* icon-ButtonRed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B0F47D41EA89F0C00205E11 /* LoginViewController.swift in Sources */,
+				8B0F47F41EA8B09B00205E11 /* LoginViewController.swift in Sources */,
 				8B0F47DA1EA89F0C00205E11 /* TaTo.xcdatamodeld in Sources */,
 				8B0F47D21EA89F0C00205E11 /* AppDelegate.swift in Sources */,
 			);
@@ -148,14 +180,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8B0F47D51EA89F0C00205E11 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B0F47D61EA89F0C00205E11 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8B0F47DD1EA89F0C00205E11 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -305,6 +329,7 @@
 				8B0F47E51EA89F0C00205E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
